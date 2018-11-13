@@ -1,4 +1,18 @@
 # Drawbot_image_to_gcode_v2
+This version of D2S creates individual SVGs for each pen. This is what I perfer to use for layered drawings. jwcliff did the work
+
+--------------------------------------------------------------
+
+jwcliff modified: Drawbot_image_to_gcode_v2.pde  …
+	modified:   Gcode.pde
+	modified:   README.md
+
+Added SVG generation to gcode output. SVG file created for each pen.
+
+Corrected the README as it had G not g for gcode generation.
+
+------------------------------------------------------------------------------
+
 This code is used to generate gcode for drawbots, polargraphs or other vertical drawing machines. \
 It takes an original image, manipulates it and generates a drawing path that kinda sorta looks like the original image. \
 This code was specifically written to work with multiple Copic markers. \
